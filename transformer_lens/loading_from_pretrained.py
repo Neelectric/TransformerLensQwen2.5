@@ -161,10 +161,7 @@ OFFICIAL_MODEL_NAMES = [
     "meta-llama/Llama-3.2-3B-Instruct",
     "meta-llama/Llama-3.3-70B-Instruct",
     "Baidicoot/Othello-GPT-Transformer-Lens",
-    "google-bert/bert-base-cased",
-    "google-bert/bert-base-uncased",
-    "google-bert/bert-large-cased",
-    "google-bert/bert-large-uncased",
+    "bert-base-cased",
     "roneneldan/TinyStories-1M",
     "roneneldan/TinyStories-3M",
     "roneneldan/TinyStories-8M",
@@ -185,7 +182,6 @@ OFFICIAL_MODEL_NAMES = [
     "stabilityai/stablelm-tuned-alpha-7b",
     "mistralai/Mistral-7B-v0.1",
     "mistralai/Mistral-7B-Instruct-v0.1",
-    "mistralai/Mistral-Small-24B-Base-2501",
     "mistralai/Mistral-Nemo-Base-2407",
     "mistralai/Mixtral-8x7B-v0.1",
     "mistralai/Mixtral-8x7B-Instruct-v0.1",
@@ -220,6 +216,9 @@ OFFICIAL_MODEL_NAMES = [
     "Qwen/Qwen2.5-0.5B",
     "Qwen/Qwen2.5-0.5B-Instruct",
     "Qwen/Qwen2.5-1.5B",
+    "Qwen/Qwen2.5-Math-1.5B", # added by Neel Rajani
+    "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B", # added by Neel Rajani
+    "Dongwei/Qwen2.5-1.5B-Open-R1-GRPO_Math", # added by Neel Rajani
     "Qwen/Qwen2.5-1.5B-Instruct",
     "Qwen/Qwen2.5-3B",
     "Qwen/Qwen2.5-3B-Instruct",
@@ -598,10 +597,6 @@ MODEL_ALIASES = {
         "codellama/CodeLlama-7b-Instruct-hf",
     ],
     "Baidicoot/Othello-GPT-Transformer-Lens": ["othello-gpt"],
-    "google-bert/bert-base-cased": ["bert-base-cased"],
-    "google-bert/bert-base-uncased": ["bert-base-uncased"],
-    "google-bert/bert-large-cased": ["bert-large-cased"],
-    "google-bert/bert-large-uncased": ["bert-large-uncased"],
     "roneneldan/TinyStories-1M": ["tiny-stories-1M"],
     "roneneldan/TinyStories-3M": ["tiny-stories-3M"],
     "roneneldan/TinyStories-8M": ["tiny-stories-8M"],
@@ -662,6 +657,9 @@ MODEL_ALIASES = {
     "Qwen/Qwen1.5-7B-Chat": ["qwen1.5-7b-chat"],
     "Qwen/Qwen1.5-14B": ["qwen1.5-14b"],
     "Qwen/Qwen1.5-14B-Chat": ["qwen1.5-14b-chat"],
+    "Qwen/Qwen2.5-Math-1.5B": ["qwen2.5-math-1.5b"], # renamed by Neel Rajani
+    "deepseek-ai/DeepSeek-R1-Distill-Qwen-1.5B": ["r1distill-qwen2.5-math-1.5b"], # added by Neel Rajani
+    "Dongwei/Qwen2.5-1.5B-Open-R1-GRPO_Math": ["grpoft-qwen2.5-math-1.5b"], # added by Neel Rajani
     "microsoft/phi-1": ["phi-1"],
     "microsoft/phi-1_5": ["phi-1_5"],
     "microsoft/phi-2": ["phi-2"],
