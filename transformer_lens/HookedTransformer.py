@@ -576,7 +576,7 @@ class HookedTransformer(HookedRootModule):
         ):
             if isinstance(input, dict) and input.get("attention_mask", None) is not None:
                 attention_mask = input["attention_mask"]
-                tokens = input["input_ids"]
+                input = input["input_ids"]
             if start_at_layer is None:
                 (
                     residual,
