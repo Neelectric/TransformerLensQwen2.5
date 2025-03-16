@@ -364,6 +364,9 @@ class HookedTransformer(HookedRootModule):
             ), "Must provide a tokenizer if passing a string to the model"
             # This is only intended to support passing in a single string
             tokens = self.to_tokens(input, prepend_bos=prepend_bos, padding_side=padding_side)
+        if isinstance(input, dict) and input.get("attention_mask", None) is not None:
+            attention_mask = input["attention_mask"]
+            tokens = input
         else:
             tokens = input
         if len(tokens.shape) == 1:
