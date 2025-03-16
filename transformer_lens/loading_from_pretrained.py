@@ -254,6 +254,10 @@ OFFICIAL_MODEL_NAMES = [
     "google-t5/t5-base",
     "google-t5/t5-large",
     "ai-forever/mGPT",
+    "HuggingFaceTB/SmolLM2-1.7B"
+    "HuggingFaceTB/SmolLM2-1.7B-Instruct",
+    "Neelectric/SmolLM2-1.7B-Instruct_SFT",
+    "Neelectric/SmolLM2-1.7B-Instruct_GRPO",
 ]
 """Official model names for models on HuggingFace."""
 
@@ -683,6 +687,10 @@ MODEL_ALIASES = {
     "google-t5/t5-base": ["t5-base"],
     "google-t5/t5-large": ["t5-large"],
     "ai-forever/mGPT": ["mGPT"],
+    "HuggingFaceTB/SmolLM2-1.7B": ["SmolLM2-1.7B"],
+    "HuggingFaceTB/SmolLM2-1.7B-Instruct": ["SmolLM2-1.7B-Instruct"],
+    "Neelectric/SmolLM2-1.7B-Instruct_SFT": ["SmolLM2-1.7B-Instruct_SFT"],
+    "Neelectric/SmolLM2-1.7B-Instruct_GRPO": ["SmolLM2-1.7B-Instruct_GRPO"],
 }
 """Model aliases for models on HuggingFace."""
 
