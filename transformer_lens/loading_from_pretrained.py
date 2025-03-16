@@ -254,7 +254,7 @@ OFFICIAL_MODEL_NAMES = [
     "google-t5/t5-base",
     "google-t5/t5-large",
     "ai-forever/mGPT",
-    "HuggingFaceTB/SmolLM2-1.7B"
+    "HuggingFaceTB/SmolLM2-1.7B",
     "HuggingFaceTB/SmolLM2-1.7B-Instruct",
     "Neelectric/SmolLM2-1.7B-Instruct_SFT",
     "Neelectric/SmolLM2-1.7B-Instruct_GRPO",
